@@ -1,0 +1,459 @@
+*{
+    margin: 0;
+    border: 0;
+}
+body{
+    background-color:white;
+    font-family: 'Poppins' , sans-serif;
+}
+.nav{
+    background-color:  #234E70;
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+    
+}
+.left{
+    color: white;
+    margin-left: 8%;
+    font-size: 18px; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.right{
+    margin-left: 20%;
+}
+.right ul li{
+    list-style: none;
+    text-align: right;
+    display: inline;
+    padding: 10px ;
+}
+.top a{
+    color: white;
+    display:inline-grid;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase
+}
+.top a:hover{
+    color: #EEA47F;
+}
+.under{
+    background-color: #EEA47F;
+}
+.under{
+    border-left: 6px solid #2b5b7f;
+    left: 5%;
+  }
+
+.column {
+    float: left;
+    padding: 10px;
+    height: 300px; }
+  
+ .leftbar{
+   
+        color: black;
+        width: 50%;
+        font-size: 2rem;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 10%;
+        margin-top: 4%;
+ }
+ .leftbar .hey{
+  color: black;
+  font-size: 25px;
+  
+ }
+ .leftbar .name{
+  font-family: "Sofia", sans-serif;
+  color: rgb(223, 39, 69);
+ }
+ .leftbar p{
+    font-size: larger;
+    font-family: Josefin Sans;
+    
+ }
+
+ 
+  .resume{
+    margin-top: 7%;
+    margin-left: 20%;
+    background-color:rgb(192, 24, 52);
+    color: white;
+    font-style: bold;
+    padding: 11px 20px;
+    justify-content: space-between;
+   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+  .resume:hover {
+    background-color: #2b5b7f;
+    color: white;
+    cursor: pointer;
+  }
+  .top-btn-contact{
+    margin-top: 7%;
+    margin-left: 20%;
+    background-color:rgb(192, 24, 52);
+    color: white;
+    font-style: bold;
+    padding: 11px 20px;
+    justify-content: space-between;
+   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+  .top-btn-contact:hover {
+    background-color: #2b5b7f;
+    color: white;
+    cursor: pointer;
+  }
+ 
+  
+  .middlebar {
+    width: 30%;
+  }
+  .middlebar img{
+    margin-top: 10%;
+    width: 80%;
+    border:4px solid #234E70;
+    border-radius: 50%;
+    margin-left: -6%;
+  }
+ .row{
+    margin: 0;
+    display: flex;
+    color: black;
+ }
+ .items ul li{
+    list-style: none;
+    text-align: right;
+    padding: 20px ;
+    margin-top: 50%;
+    margin-left: -150%;
+}
+.items a{
+    color: #234E70;
+    font-size: 23px;
+
+    
+}
+.items a:hover{
+    color:rgb(192, 24, 52);
+}
+
+.about h1{
+    color: #234E70;
+    text-align: center;
+    margin-top: 4%;
+    font-style: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration-line: underline;
+    font-size: 30px;
+  }
+  .about img{
+    display: inline-grid;
+    width: 15%;
+    margin-left: 90px;
+    margin-top: -9000%;
+  }
+  .download{
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 300px;
+    display: inline-grid;
+    
+ }
+ .btn{
+
+    background-color:rgb(192, 24, 52);
+    color: white;
+    font-style: bold;
+    padding: 11px 20px;
+    justify-content: space-between;
+    margin-left: 700px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+  .btn:hover {
+    background-color:#2b5b7f;
+    color: white;
+    cursor: pointer;
+  }
+  .skills{
+    color: black;
+    font-size: 20px;
+    text-align: center ;
+    justify-content: space-between;
+    margin-top: 3%;
+    margin-left: 400px;
+    margin-right: 300px;
+    
+  }
+
+  .skills h1{
+    color: #234E70;
+    text-align: center;
+    margin-top: 10%;
+    font-style: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration-line: underline;
+    font-size: 30px;
+  }
+  .skills  .great {
+    color: rgb(192, 24, 52);
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+  .language{
+    display: flex;
+ 
+  }
+  .language ul{
+   
+    color: black;
+    overflow: hidden;
+    font-style: italic;
+    padding: 50px 50px;
+    margin-top: 3%;
+    font-size: 17px;
+  }
+  .percent ul{
+    display: inline-block;
+    color: rgb(192, 24, 52);
+    overflow: hidden;
+    font-style: italic;
+    padding: 40px 40px;
+    margin-top: -10%
+  }
+  .language-two{
+    display: flex;
+ 
+  }
+  .language-two ul{
+    color: black;
+    overflow: hidden;
+    font-style: italic;
+    padding: 70px 70px;
+    margin-top: -9%;
+  }
+  .language ul img{
+    width: 70%;
+  }
+  .language-two ul img{
+    width:20%;
+  }
+  .per ul{
+    display: inline-block;
+    color: rgb(192, 24, 52);
+    overflow: hidden;
+    font-style: italic;
+    padding: 90px 90px;
+    margin-top: -18%
+  }
+ .javscript{
+    display: flex;
+  }
+  .service h1{
+    
+    color: #234E70;
+    text-align: center;
+    margin-top: 5%;
+    font-style: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration-line: underline;
+    font-size: 30px;
+  }
+  .service  .great {
+    color: rgb(192, 24, 52);
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+  .container {
+    position: relative;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 25px;
+    margin-left: 13%;
+}
+ 
+/*Apply css properties to card class*/
+ 
+.container .card {
+    height: 220px;
+    max-width: 200px;
+    position: relative;
+    margin: 30px 10px;
+    padding: 10px 10px;
+    background: rgb(192, 24, 52); 
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s ease-in-out;
+    border: 2px solid black;
+}
+.card h3{
+  color: white;
+}
+
+ 
+.container .card:hover {
+    height: 420px;
+}
+ .content p{
+  color: white;
+ }
+ 
+.containe .card .imgbox {
+    position: relative;
+    width: 260px;
+    height: 260px;
+    top: -60px;
+    left: 20px;
+}
+ 
+/*Apply css properties to img tag*/
+ 
+.container .card .imgbox img {
+    max-width: 100%;
+    border-radius: 2px;
+}
+ 
+/*Apply css properties to content class*/
+ 
+.container .card .content {
+    position: relative;
+    margin-top: -100px;
+    padding: 10px 15px;
+    text-align: center;
+    color: rgb(192, 24, 52);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.container .card:hover .content {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -10px;
+    transition-delay: 0.3s;
+}
+
+.project h1{
+  color: #234E70;
+  text-align: center;
+  margin-top: 5%;
+  font-style: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration-line: underline;
+  font-size: 30px;
+}
+.project .first{
+  display: flex;
+  color: black;
+
+}
+.project  img{
+  width: 8%;
+  margin-left: 20%;
+}
+.project .women{
+  width: 10%;
+}
+.pro{
+margin-left: 40px;
+}
+.use{
+margin-left: 100px;
+}
+.content.great {
+  color:rgb(192, 24, 52);
+  text-align: center;
+  font-size: 25px;
+  font-style: italic;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.project .social{
+  display: flex;
+  justify-content: space-around;
+  color: black;
+  margin-left: 12%;
+  margin-right: 15%;
+  text-align: center;
+ }
+ .social ul{
+  padding: 10px 20px;
+ }
+ .mail{
+  
+  padding: 5px 20px;
+  text-decoration: underline ;
+
+  text-align: center;
+ 
+ }
+ .mail a{
+  color: black; 
+  text-decoration: none;
+ }
+ .link{
+
+  padding: 5px 8px;
+  text-decoration: underline ;
+
+  text-align: center;
+ 
+ }
+ .link a{
+  color: black; 
+  text-decoration: none;
+ }
+ .ph{
+ 
+  padding: 5px 8px;
+  text-decoration: underline ;
+  text-align: center;
+ 
+ }
+ .ph a{
+  color: black; 
+  text-decoration: none;
+ }
+ .email{
+  margin-left: 35%;
+  margin-top: 5%;
+ }
+ input[type=email] {
+  border: 2px solid #234E70;
+  border-radius: 4px;
+}
+label{
+  color: rgb(192, 24, 52);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ .sub{
+  background-color: #234E70;
+  color: white;
+  padding: 5px 5px;
+ }
+ .foot{
+  background-color: rgb(192, 24, 52);
+  padding: 5px 5px;
+ }
+ .copyright{
+  color: white;
+  text-align: center;
+  margin-top: 2%;
+ }
